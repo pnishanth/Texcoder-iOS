@@ -15,6 +15,7 @@
 		2E9A51941E20C79A00F6069A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A51921E20C79A00F6069A /* LaunchScreen.storyboard */; };
 		2E9A519F1E20C79A00F6069A /* TexcoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A519E1E20C79A00F6069A /* TexcoderTests.swift */; };
 		2E9A51AA1E20C79A00F6069A /* TexcoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A51A91E20C79A00F6069A /* TexcoderUITests.swift */; };
+		2E9A51B81E20D1E900F6069A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A51B71E20D1E900F6069A /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2E9A51A51E20C79A00F6069A /* TexcoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexcoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9A51A91E20C79A00F6069A /* TexcoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexcoderUITests.swift; sourceTree = "<group>"; };
 		2E9A51AB1E20C79A00F6069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9A51B71E20D1E900F6069A /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2E9A51921E20C79A00F6069A /* LaunchScreen.storyboard */,
 				2E9A51951E20C79A00F6069A /* Info.plist */,
 				2E9A518D1E20C79A00F6069A /* Texcoder.xcdatamodeld */,
+				2E9A51B71E20D1E900F6069A /* MessageViewController.swift */,
 			);
 			path = Texcoder;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				2E9A518F1E20C79A00F6069A /* Texcoder.xcdatamodeld in Sources */,
 				2E9A51891E20C79A00F6069A /* ViewController.swift in Sources */,
+				2E9A51B81E20D1E900F6069A /* MessageViewController.swift in Sources */,
 				2E9A51871E20C79A00F6069A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
